@@ -1,0 +1,191 @@
+29.10.2024, 9:54:58 - INFO - Server is running on port: 3030
+29.10.2024, 9:55:48 - INFO - /api/review | GET | {} | {}
+29.10.2024, 9:56:38 - INFO - Server is running on port: 3030
+29.10.2024, 9:56:45 - INFO - /api/review | GET | {} | {}
+29.10.2024, 9:57:25 - INFO - Server is running on port: 3030
+29.10.2024, 9:57:26 - INFO - /api/review | GET | {} | {}
+29.10.2024, 9:58:01 - INFO - Server is running on port: 3030
+29.10.2024, 9:58:03 - INFO - /api/review | GET | {} | {}
+29.10.2024, 9:58:31 - INFO - Server is running on port: 3030
+29.10.2024, 9:58:32 - INFO - /api/review | GET | {} | {}
+29.10.2024, 10:02:29 - INFO - Server is running on port: 3030
+29.10.2024, 10:02:29 - INFO - /api/review | GET | {} | {}
+29.10.2024, 10:03:51 - INFO - Server is running on port: 3030
+29.10.2024, 10:03:52 - INFO - /api/review | GET | {} | {}
+29.10.2024, 10:04:37 - INFO - Server is running on port: 3030
+29.10.2024, 10:07:26 - INFO - Server is running on port: 3030
+29.10.2024, 10:07:27 - INFO - /api/review | GET | {} | {}
+29.10.2024, 10:08:05 - INFO - Server is running on port: 3030
+29.10.2024, 10:08:06 - INFO - /api/review | GET | {} | {}
+29.10.2024, 10:08:26 - INFO - Server is running on port: 3030
+29.10.2024, 10:08:27 - INFO - /api/review | GET | {} | {}
+29.10.2024, 10:22:55 - INFO - Server is running on port: 3030
+29.10.2024, 10:22:55 - INFO - /api/review | GET | {} | {}
+29.10.2024, 10:23:24 - INFO - Server is running on port: 3030
+29.10.2024, 10:23:25 - INFO - /api/review | GET | {} | {}
+29.10.2024, 10:23:42 - INFO - Server is running on port: 3030
+29.10.2024, 10:23:42 - INFO - /api/review | GET | {} | {}
+29.10.2024, 10:24:24 - INFO - /api/review | GET | {} | {} | IpE2n
+29.10.2024, 10:24:39 - INFO - Server is running on port: 3030
+29.10.2024, 10:24:40 - INFO - /api/review | GET | {} | {} | IpE2n
+29.10.2024, 10:24:40 - ERROR - cannot get reviews | ReferenceError: returncollection is not defined | IpE2n
+29.10.2024, 10:24:40 - ERROR - Cannot get reviews | ReferenceError: returncollection is not defined | IpE2n
+29.10.2024, 10:24:43 - INFO - /api/review | GET | {} | {} | IpE2n
+29.10.2024, 10:24:43 - ERROR - cannot get reviews | ReferenceError: returncollection is not defined | IpE2n
+29.10.2024, 10:24:43 - ERROR - Cannot get reviews | ReferenceError: returncollection is not defined | IpE2n
+29.10.2024, 10:24:52 - INFO - Server is running on port: 3030
+29.10.2024, 10:24:52 - INFO - /api/review | GET | {} | {} | IpE2n
+29.10.2024, 10:26:29 - INFO - Server is running on port: 3030
+29.10.2024, 10:27:14 - INFO - New connected socket [id: X3341L5UNblGm1noAAAB]
+29.10.2024, 10:27:15 - INFO - /api/review | GET | {} | {} | IpE2n
+29.10.2024, 10:34:10 - INFO - Server is running on port: 3030
+29.10.2024, 10:34:11 - INFO - New connected socket [id: mM0sX9h1FzaC44UpAAAB]
+29.10.2024, 11:10:13 - INFO - Server is running on port: 3030
+29.10.2024, 11:10:14 - INFO - New connected socket [id: _YXc8s2KX-_ZqbAjAAAB]
+29.10.2024, 11:12:44 - INFO - Server is running on port: 3030
+29.10.2024, 11:12:46 - INFO - New connected socket [id: a7AgUFsc1mhsjDmcAAAB]
+29.10.2024, 11:13:07 - ERROR - while finding user by id: 664f8261e6205c622dbc14e2 | ReferenceError: byUser is not defined | IpE2n
+29.10.2024, 11:13:07 - ERROR - Failed to get user | ReferenceError: byUser is not defined | IpE2n
+29.10.2024, 11:13:18 - INFO - Server is running on port: 3030
+29.10.2024, 11:13:20 - ERROR - while finding user by id: 664f8261e6205c622dbc14e2 | ReferenceError: user is not defined | IpE2n
+29.10.2024, 11:13:20 - ERROR - Failed to get user | ReferenceError: user is not defined | IpE2n
+29.10.2024, 11:13:20 - INFO - New connected socket [id: KYmNP9RBTtXUp-PxAAAB]
+29.10.2024, 11:13:36 - INFO - Server is running on port: 3030
+29.10.2024, 11:13:37 - INFO - New connected socket [id: QkUkeDeBH43JGa1-AAAB]
+29.10.2024, 11:15:20 - INFO - Server is running on port: 3030
+29.10.2024, 11:15:22 - INFO - New connected socket [id: 3AKntLUMtTLVKeluAAAB]
+29.10.2024, 11:15:49 - DEBUG - auth.service - login with username: bob | IpE2n
+29.10.2024, 11:15:49 - INFO - User login:  | {"_id":"664f8261e6205c622dbc14e2","username":"bob","fullname":"bob","imgUrl":"https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png","score":480,"isAdmin":false} | IpE2n
+29.10.2024, 11:15:49 - INFO - Setting socket.userId = 664f8261e6205c622dbc14e2 for socket [id: 3AKntLUMtTLVKeluAAAB]
+29.10.2024, 11:15:51 - INFO - user-watch from socket [id: 3AKntLUMtTLVKeluAAAB], on user 664f8261e6205c622dbc14e2
+29.10.2024, 11:17:22 - INFO - Server is running on port: 3030
+29.10.2024, 11:17:23 - INFO - New connected socket [id: SRS_u4vsYFcNcyMOAAAB]
+29.10.2024, 11:17:23 - INFO - Setting socket.userId = 664f8261e6205c622dbc14e2 for socket [id: SRS_u4vsYFcNcyMOAAAB]
+29.10.2024, 11:17:23 - INFO - user-watch from socket [id: SRS_u4vsYFcNcyMOAAAB], on user 664f8261e6205c622dbc14e2
+29.10.2024, 11:17:30 - INFO - Server is running on port: 3030
+29.10.2024, 11:17:31 - INFO - New connected socket [id: w02BOHdU7zl54feTAAAB]
+29.10.2024, 11:17:31 - INFO - New connected socket [id: vpjGXsAoIr7_Uo6DAAAD]
+29.10.2024, 11:17:31 - INFO - Setting socket.userId = 664f8261e6205c622dbc14e2 for socket [id: vpjGXsAoIr7_Uo6DAAAD]
+29.10.2024, 11:17:31 - INFO - user-watch from socket [id: vpjGXsAoIr7_Uo6DAAAD], on user 664f8261e6205c622dbc14e2
+29.10.2024, 11:18:16 - INFO - Socket disconnected [id: undefined]
+29.10.2024, 11:18:24 - INFO - Server is running on port: 3030
+29.10.2024, 11:18:25 - INFO - New connected socket [id: 1r9a_RSYjnaQupX-AAAB]
+29.10.2024, 11:18:26 - INFO - Socket disconnected [id: undefined]
+29.10.2024, 11:18:26 - INFO - New connected socket [id: e6qOAglW1nvxceIzAAAD]
+29.10.2024, 11:18:26 - INFO - Setting socket.userId = 664f8261e6205c622dbc14e2 for socket [id: e6qOAglW1nvxceIzAAAD]
+29.10.2024, 11:18:26 - INFO - user-watch from socket [id: e6qOAglW1nvxceIzAAAD], on user 664f8261e6205c622dbc14e2
+29.10.2024, 11:20:20 - INFO - Server is running on port: 3030
+29.10.2024, 11:20:21 - INFO - New connected socket [id: MyOsibDIgpnrH5oOAAAB]
+29.10.2024, 11:20:21 - INFO - Socket disconnected [id: undefined]
+29.10.2024, 11:20:21 - INFO - New connected socket [id: tl13qPsyReQaYugKAAAD]
+29.10.2024, 11:20:21 - INFO - Setting socket.userId = 664f8261e6205c622dbc14e2 for socket [id: tl13qPsyReQaYugKAAAD]
+29.10.2024, 11:20:21 - INFO - user-watch from socket [id: tl13qPsyReQaYugKAAAD], on user 664f8261e6205c622dbc14e2
+29.10.2024, 12:38:00 - INFO - Server is running on port: 3030
+29.10.2024, 12:38:00 - INFO - New connected socket [id: epZvPmAyRx4b1tJoAAAB]
+29.10.2024, 12:38:14 - INFO - /api/review | GET | {} | {} | 664f8261e6205c622dbc14e2
+29.10.2024, 12:38:36 - INFO - Server is running on port: 3030
+29.10.2024, 12:38:36 - INFO - New connected socket [id: m1sUs_jsXCrKZ1ogAAAB]
+29.10.2024, 12:38:37 - INFO - /api/review | GET | {} | {} | 664f8261e6205c622dbc14e2
+29.10.2024, 12:39:03 - INFO - /api/car | GET | {} | {} | 664f8261e6205c622dbc14e2
+29.10.2024, 12:39:03 - INFO - /api/car | GET | {} | {} | 664f8261e6205c622dbc14e2
+29.10.2024, 20:03:41 - INFO - Socket disconnected [id: undefined]
+29.10.2024, 20:03:42 - INFO - New connected socket [id: oXnmx94-rsu9hMVFAAAD]
+29.10.2024, 20:03:42 - INFO - Setting socket.userId = 664f8261e6205c622dbc14e2 for socket [id: oXnmx94-rsu9hMVFAAAD]
+29.10.2024, 20:03:42 - INFO - /api/car | GET | {} | {} | 664f8261e6205c622dbc14e2
+29.10.2024, 20:03:42 - INFO - /api/car | GET | {} | {} | 664f8261e6205c622dbc14e2
+29.10.2024, 20:03:48 - INFO - /api/car | GET | {} | {} | 664f8261e6205c622dbc14e2
+29.10.2024, 20:03:48 - INFO - /api/car | GET | {} | {} | 664f8261e6205c622dbc14e2
+29.10.2024, 20:04:00 - INFO - /api/car | GET | {} | {} | 664f8261e6205c622dbc14e2
+29.10.2024, 20:04:00 - INFO - /api/car | GET | {} | {} | 664f8261e6205c622dbc14e2
+29.10.2024, 20:04:04 - INFO - /api/review | GET | {} | {} | 664f8261e6205c622dbc14e2
+29.10.2024, 20:04:07 - INFO - /api/car | GET | {} | {} | 664f8261e6205c622dbc14e2
+29.10.2024, 20:04:07 - INFO - /api/car | GET | {} | {} | 664f8261e6205c622dbc14e2
+29.10.2024, 20:04:52 - INFO - /api/car | GET | {} | {"id":"6655e6883660ea02bdfbb955"} | 664f8261e6205c622dbc14e2
+29.10.2024, 20:06:32 - INFO - /api/car | GET | {} | {} | 664f8261e6205c622dbc14e2
+29.10.2024, 20:06:32 - INFO - /api/car | GET | {} | {} | 664f8261e6205c622dbc14e2
+29.10.2024, 20:07:22 - INFO - /api/car | GET | {} | {} | 664f8261e6205c622dbc14e2
+29.10.2024, 20:07:22 - INFO - /api/car | GET | {} | {} | 664f8261e6205c622dbc14e2
+29.10.2024, 20:07:29 - INFO - /api/car | GET | {} | {} | 664f8261e6205c622dbc14e2
+29.10.2024, 20:07:29 - INFO - /api/car | GET | {} | {} | 664f8261e6205c622dbc14e2
+29.10.2024, 20:07:29 - INFO - /api/car | GET | {} | {} | 664f8261e6205c622dbc14e2
+29.10.2024, 20:07:31 - INFO - /api/car | GET | {} | {} | 664f8261e6205c622dbc14e2
+29.10.2024, 20:07:31 - INFO - /api/car | GET | {} | {} | 664f8261e6205c622dbc14e2
+29.10.2024, 20:07:31 - INFO - /api/car | GET | {} | {} | 664f8261e6205c622dbc14e2
+29.10.2024, 20:07:31 - INFO - /api/car | GET | {} | {} | 664f8261e6205c622dbc14e2
+29.10.2024, 20:07:35 - INFO - /api/car | GET | {} | {} | 664f8261e6205c622dbc14e2
+29.10.2024, 20:07:35 - INFO - /api/car | GET | {} | {} | 664f8261e6205c622dbc14e2
+29.10.2024, 20:07:38 - INFO - /api/car | GET | {} | {} | 664f8261e6205c622dbc14e2
+29.10.2024, 20:07:39 - INFO - /api/car | GET | {} | {} | 664f8261e6205c622dbc14e2
+29.10.2024, 20:07:40 - INFO - /api/car | GET | {} | {} | 664f8261e6205c622dbc14e2
+29.10.2024, 20:07:41 - INFO - /api/car | GET | {} | {} | 664f8261e6205c622dbc14e2
+29.10.2024, 20:07:42 - INFO - /api/car | GET | {} | {} | 664f8261e6205c622dbc14e2
+29.10.2024, 20:07:43 - INFO - /api/car | GET | {} | {} | 664f8261e6205c622dbc14e2
+29.10.2024, 20:07:44 - INFO - /api/car | GET | {} | {} | 664f8261e6205c622dbc14e2
+29.10.2024, 20:07:48 - INFO - Removing socket.userId for socket [id: oXnmx94-rsu9hMVFAAAD]
+29.10.2024, 20:07:57 - DEBUG - auth.service - login with username: toto
+29.10.2024, 20:07:57 - INFO - User login:  | {"_id":"6673ed567b3a8ae2e598215a","username":"toto","fullname":"toto","imgUrl":"https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png","isAdmin":true,"score":300}
+29.10.2024, 20:07:57 - INFO - Setting socket.userId = 6673ed567b3a8ae2e598215a for socket [id: oXnmx94-rsu9hMVFAAAD]
+29.10.2024, 20:08:01 - INFO - /api/car | GET | {} | {} | 6673ed567b3a8ae2e598215a
+29.10.2024, 20:08:01 - INFO - /api/car | GET | {} | {} | 6673ed567b3a8ae2e598215a
+29.10.2024, 20:08:12 - INFO - Removing socket.userId for socket [id: oXnmx94-rsu9hMVFAAAD]
+29.10.2024, 20:08:14 - INFO - /api/car | GET | {} | {}
+29.10.2024, 20:08:14 - INFO - /api/car | GET | {} | {}
+29.10.2024, 20:10:37 - INFO - Server is running on port: 3030
+29.10.2024, 20:10:38 - INFO - New connected socket [id: I2D-V-6M8fmO77epAAAB]
+29.10.2024, 20:38:44 - INFO - Server is running on port: 3030
+29.10.2024, 20:38:45 - INFO - New connected socket [id: aSAQ1Lm47LKB6iBjAAAB]
+29.10.2024, 20:41:39 - INFO - Server is running on port: 3030
+29.10.2024, 20:41:40 - INFO - New connected socket [id: VVty1eN45KhTIwPpAAAB]
+29.10.2024, 20:41:40 - INFO - /api/car | GET | {} | {}
+29.10.2024, 20:41:40 - INFO - /api/car | GET | {} | {}
+29.10.2024, 20:53:05 - INFO - /api/car | GET | {} | {"id":"6668c400093d89b25d071959"}
+29.10.2024, 20:53:12 - INFO - /api/car | GET | {} | {}
+29.10.2024, 20:53:12 - INFO - /api/car | GET | {} | {}
+29.10.2024, 21:01:47 - INFO - /api/car | GET | {} | {"id":"6668c400093d89b25d071959"}
+29.10.2024, 21:01:53 - INFO - /api/car | GET | {} | {}
+29.10.2024, 21:01:53 - INFO - /api/car | GET | {} | {}
+29.10.2024, 21:02:53 - INFO - Server is running on port: 3030
+29.10.2024, 21:02:54 - INFO - New connected socket [id: yvM4V0FzsN0lQrYqAAAB]
+29.10.2024, 21:04:16 - INFO - Server is running on port: 3030
+29.10.2024, 21:04:17 - INFO - New connected socket [id: oEM7TDA_YNa8sFvpAAAB]
+29.10.2024, 21:04:47 - INFO - /api/review | GET | {} | {}
+29.10.2024, 21:10:12 - INFO - Server is running on port: 3030
+29.10.2024, 21:10:13 - INFO - New connected socket [id: hszdR3dmmLGFu_DTAAAB]
+29.10.2024, 21:10:23 - INFO - /api/review | GET | {} | {}
+29.10.2024, 21:11:15 - INFO - Server is running on port: 3030
+29.10.2024, 21:11:16 - INFO - New connected socket [id: 1VB0ss2YLLcei-NxAAAB]
+29.10.2024, 21:11:18 - INFO - /api/review | GET | {} | {}
+29.10.2024, 21:12:44 - INFO - Server is running on port: 3030
+29.10.2024, 21:12:46 - INFO - New connected socket [id: PQHxM9Ww0PB3-WBmAAAB]
+29.10.2024, 21:12:53 - INFO - /api/review | GET | {} | {}
+29.10.2024, 21:14:54 - INFO - Server is running on port: 3030
+29.10.2024, 21:14:55 - INFO - New connected socket [id: c3wWgZ8KbN0SzIbPAAAB]
+29.10.2024, 21:16:53 - INFO - Server is running on port: 3030
+29.10.2024, 21:16:54 - INFO - /api/review | GET | {} | {}
+29.10.2024, 21:16:54 - INFO - New connected socket [id: e5xhjJKXclhz8EOlAAAB]
+29.10.2024, 21:18:01 - INFO - Server is running on port: 3030
+29.10.2024, 21:18:02 - INFO - New connected socket [id: bNjhHCMBvz5hBW5MAAAB]
+29.10.2024, 21:18:08 - INFO - /api/review | GET | {} | {}
+29.10.2024, 21:18:40 - INFO - Server is running on port: 3030
+29.10.2024, 21:18:41 - INFO - /api/review | GET | {} | {}
+29.10.2024, 21:18:42 - INFO - New connected socket [id: QZiz4dDfxUPh-09XAAAB]
+29.10.2024, 21:20:12 - INFO - Server is running on port: 3030
+29.10.2024, 21:20:12 - INFO - New connected socket [id: _XG2I9Hu5T1eSbfeAAAB]
+29.10.2024, 21:20:44 - INFO - /api/review | GET | {} | {}
+29.10.2024, 21:24:53 - INFO - Server is running on port: 3030
+29.10.2024, 21:24:54 - INFO - /api/review | GET | {} | {}
+29.10.2024, 21:24:54 - INFO - /api/review | GET | {} | {}
+29.10.2024, 21:24:55 - INFO - New connected socket [id: Y5SHtj7vtZRe3IOXAAAB]
+29.10.2024, 21:25:35 - INFO - Server is running on port: 3030
+29.10.2024, 21:25:36 - INFO - /api/review | GET | {} | {}
+29.10.2024, 21:25:37 - INFO - New connected socket [id: Kcv3iTHhV4FNtuIBAAAB]
+29.10.2024, 21:25:58 - INFO - Server is running on port: 3030
+29.10.2024, 21:25:58 - INFO - /api/review | GET | {} | {}
+29.10.2024, 21:25:59 - INFO - New connected socket [id: 9p7ZrHVWGax-ATqLAAAB]
+29.10.2024, 21:28:17 - INFO - user-watch from socket [id: 9p7ZrHVWGax-ATqLAAAB], on user 664f8261e6205c622dbc14e2
+29.10.2024, 21:32:17 - INFO - /api/review | GET | {} | {}
+29.10.2024, 21:32:23 - INFO - user-watch from socket [id: 9p7ZrHVWGax-ATqLAAAB], on user 664f8261e6205c622dbc14e2
+29.10.2024, 21:40:44 - INFO - Server is running on port: 3030
+29.10.2024, 21:40:45 - INFO - New connected socket [id: VorIGCej0LPt7aQbAAAB]
+29.10.2024, 21:53:14 - INFO - /api/car | GET | {} | {}
+29.10.2024, 21:53:14 - INFO - /api/car | GET | {} | {}
