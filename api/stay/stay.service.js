@@ -181,7 +181,7 @@ function _buildCriteria(filterBy) {
 	// console.log('filterBy; ', filterBy);
 	
 	const criteria = {
-		labels: {$in: [filterBy.label]}
+		labels: {$in: [new RegExp(filterBy.icon, 'i')]}
 	}
 	// const criteria = {}
     return criteria

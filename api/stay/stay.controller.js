@@ -10,7 +10,7 @@ export async function getStays(req, res) {
 			// minSpeed: +req.query.minSpeed || 0,
             // sortField: req.query.sortField || '',
             // sortDir: req.query.sortDir || 1,
-			label: req.query.label,
+			icon: req.query.icon,
 			pageIdx: req.query.pageIdx,
 		}
 		console.log('filterBy: ', filterBy);

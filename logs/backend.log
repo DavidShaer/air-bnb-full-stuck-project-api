@@ -285,3 +285,29 @@
 11.11.2024, 21:39:56 - INFO - /api/stay | GET | {} | {"id":"s101"} | 672bc733df60a24e4ff094de
 11.11.2024, 21:40:24 - INFO - /api/stay | GET | {} | {} | 672bc733df60a24e4ff094de
 11.11.2024, 21:41:28 - INFO - Server is running on port: 3031
+11.11.2024, 22:14:17 - INFO - Server is running on port: 3031
+11.11.2024, 22:19:25 - INFO - Server is running on port: 3031
+11.11.2024, 22:21:36 - INFO - Server is running on port: 3031
+11.11.2024, 22:21:41 - INFO - Server is running on port: 3031
+11.11.2024, 22:22:04 - INFO - Server is running on port: 3031
+11.11.2024, 22:22:38 - INFO - Server is running on port: 3031
+11.11.2024, 22:22:44 - INFO - /api/stay | GET | {} | {}
+11.11.2024, 22:23:45 - INFO - /api/stay | GET | {} | {}
+11.11.2024, 22:24:03 - INFO - /api/stay | GET | {} | {}
+11.11.2024, 22:26:11 - INFO - /api/stay | GET | {} | {}
+11.11.2024, 22:26:21 - INFO - /api/stay | GET | {} | {}
+11.11.2024, 22:26:29 - INFO - /api/stay | GET | {} | {}
+11.11.2024, 22:27:40 - INFO - Server is running on port: 3031
+11.11.2024, 22:27:57 - INFO - Server is running on port: 3031
+11.11.2024, 22:28:20 - INFO - /api/stay | GET | {} | {} | 672bc733df60a24e4ff094de
+11.11.2024, 22:28:36 - INFO - /api/stay | GET | {} | {} | 672bc733df60a24e4ff094de
+11.11.2024, 22:29:12 - INFO - /api/stay | GET | {} | {}
+11.11.2024, 22:29:26 - INFO - /api/stay | GET | {} | {}
+11.11.2024, 22:29:32 - INFO - /api/stay | GET | {} | {}
+11.11.2024, 22:30:03 - INFO - /api/stay | GET | {} | {}
+11.11.2024, 22:30:45 - INFO - /api/stay | GET | {} | {} | 672bc733df60a24e4ff094de
+11.11.2024, 22:30:52 - INFO - /api/stay | GET | {} | {} | 672bc733df60a24e4ff094de
+11.11.2024, 22:30:59 - INFO - /api/stay | GET | {} | {} | 672bc733df60a24e4ff094de
+11.11.2024, 22:33:22 - INFO - Server is running on port: 3031
+11.11.2024, 22:33:29 - INFO - /api/stay | GET | {} | {} | 672bc733df60a24e4ff094de
+11.11.2024, 22:33:37 - INFO - /api/stay | GET | {} | {}
