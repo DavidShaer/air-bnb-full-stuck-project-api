@@ -189,3 +189,99 @@
 29.10.2024, 21:40:45 - INFO - New connected socket [id: VorIGCej0LPt7aQbAAAB]
 29.10.2024, 21:53:14 - INFO - /api/car | GET | {} | {}
 29.10.2024, 21:53:14 - INFO - /api/car | GET | {} | {}
+11.11.2024, 18:41:01 - INFO - Server is running on port: 3031
+11.11.2024, 18:42:32 - INFO - Server is running on port: 3031
+11.11.2024, 18:43:24 - INFO - Server is running on port: 3031
+11.11.2024, 18:43:55 - INFO - Server is running on port: 3031
+11.11.2024, 18:43:59 - INFO - Server is running on port: 3031
+11.11.2024, 18:44:10 - INFO - Server is running on port: 3031
+11.11.2024, 18:44:16 - INFO - Server is running on port: 3031
+11.11.2024, 18:44:18 - INFO - Server is running on port: 3031
+11.11.2024, 18:44:23 - INFO - Server is running on port: 3031
+11.11.2024, 18:44:23 - INFO - Server is running on port: 3031
+11.11.2024, 19:02:29 - INFO - Server is running on port: 3031
+11.11.2024, 19:34:56 - INFO - /api/stay | GET | {} | {} | 672bc733df60a24e4ff094de
+11.11.2024, 19:35:19 - INFO - Server is running on port: 3031
+11.11.2024, 19:35:27 - INFO - /api/stay | GET | {} | {} | 672bc733df60a24e4ff094de
+11.11.2024, 19:35:37 - INFO - Server is running on port: 3031
+11.11.2024, 19:35:44 - INFO - /api/stay | GET | {} | {} | 672bc733df60a24e4ff094de
+11.11.2024, 19:37:32 - INFO - Server is running on port: 3031
+11.11.2024, 19:37:37 - INFO - /api/stay | GET | {} | {} | 672bc733df60a24e4ff094de
+11.11.2024, 19:38:52 - INFO - Server is running on port: 3031
+11.11.2024, 19:38:57 - INFO - /api/stay | GET | {} | {} | 672bc733df60a24e4ff094de
+11.11.2024, 19:40:42 - INFO - Server is running on port: 3031
+11.11.2024, 19:40:48 - INFO - /api/stay | GET | {} | {} | 672bc733df60a24e4ff094de
+11.11.2024, 19:46:32 - INFO - /api/stay | GET | {} | {"id":"s106"} | 672bc733df60a24e4ff094de
+11.11.2024, 19:46:32 - ERROR - while finding stay s106 | BSONError: hex string must be 24 characters | 672bc733df60a24e4ff094de
+11.11.2024, 19:46:32 - ERROR - Failed to get stay | BSONError: hex string must be 24 characters | 672bc733df60a24e4ff094de
+11.11.2024, 20:36:30 - INFO - Server is running on port: 3031
+11.11.2024, 20:36:36 - INFO - Server is running on port: 3031
+11.11.2024, 20:36:41 - INFO - /api/stay | GET | {} | {"id":"s106"} | 672bc733df60a24e4ff094de
+11.11.2024, 20:36:42 - ERROR - while finding stay s106 | TypeError: stay._id.getTimestamp is not a function | 672bc733df60a24e4ff094de
+11.11.2024, 20:36:42 - ERROR - Failed to get stay | TypeError: stay._id.getTimestamp is not a function | 672bc733df60a24e4ff094de
+11.11.2024, 20:37:24 - INFO - Server is running on port: 3031
+11.11.2024, 20:37:31 - INFO - /api/stay | GET | {} | {"id":"s106"} | 672bc733df60a24e4ff094de
+11.11.2024, 20:37:32 - ERROR - while finding stay s106 | TypeError: stay._id.getTimestamp is not a function | 672bc733df60a24e4ff094de
+11.11.2024, 20:37:32 - ERROR - Failed to get stay | TypeError: stay._id.getTimestamp is not a function | 672bc733df60a24e4ff094de
+11.11.2024, 20:38:09 - INFO - Server is running on port: 3031
+11.11.2024, 20:38:12 - INFO - /api/stay | GET | {} | {"id":"s106"} | 672bc733df60a24e4ff094de
+11.11.2024, 20:39:19 - INFO - Server is running on port: 3031
+11.11.2024, 20:40:37 - INFO - Server is running on port: 3031
+11.11.2024, 20:41:09 - INFO - Server is running on port: 3031
+11.11.2024, 20:41:34 - INFO - Server is running on port: 3031
+11.11.2024, 20:41:36 - INFO - Server is running on port: 3031
+11.11.2024, 20:42:18 - INFO - /api/stay | POST | {"_id":"s106_new","name":"Ribeira Charming Duplex_new","type":"House_new","imgUrls":["https://plus.unsplash.com/premium_photo-1661963861529-02951a02a25f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fHJpdmllcmF8ZW58MHx8MHx8fDA%3D","otherImg.jpg"],"price":80,"summary":"Fantastic duplex apartment..._new","capacity":8,"amenities":["TV","Wifi","Kitchen","Smoking allowed","Pets allowed","Cooking basics"],"labels":["Top of the world","Trending","Play","Tropical"],"host":{"_id":"u101_new","fullname":"Davit Pok_new","imgUrl":"https://a0.muscache.com/im/pictures/fab79f25-2e10-4f0f-9711-663cb69dc7d8.jpg?aki_policy=profile_small"},"loc":{"country":"Portugal","countryCode":"PT","city":"Lisbon","address":"17 Kombo st","lat":-8.61308,"lng":41.1413},"reviews":[{"id":"madeId_new","txt":"Very helpful hosts. Cooked traditional..._new","rate":4,"by":{"_id":"u102_new","fullname":"user2_new","imgUrl":"/img/img2.jpg"}}],"likedByUsers":["mini-user_new"]} | {} | 672bc733df60a24e4ff094de
+11.11.2024, 20:42:31 - INFO - /api/stay | GET | {} | {"id":"s106_new"} | 672bc733df60a24e4ff094de
+11.11.2024, 20:44:45 - INFO - /api/stay | GET | {} | {"id":"622f337a75c7d36e498aab00"} | 672bc733df60a24e4ff094de
+11.11.2024, 20:46:57 - INFO - /api/stay | GET | {} | {"id":"622f337a75c7d36e498aab00"} | 672bc733df60a24e4ff094de
+11.11.2024, 20:47:39 - INFO - /api/stay | GET | {} | {"id":"622f337a75c7d36e498aab00"} | 672bc733df60a24e4ff094de
+11.11.2024, 20:49:19 - INFO - Server is running on port: 3031
+11.11.2024, 20:55:27 - INFO - Server is running on port: 3031
+11.11.2024, 20:57:55 - INFO - Server is running on port: 3031
+11.11.2024, 20:58:05 - INFO - Server is running on port: 3031
+11.11.2024, 20:58:26 - INFO - Server is running on port: 3031
+11.11.2024, 20:58:46 - INFO - Server is running on port: 3031
+11.11.2024, 20:58:51 - INFO - Server is running on port: 3031
+11.11.2024, 20:59:12 - INFO - /api/stay | GET | {} | {"id":"622f337a75c7d36e498aab00"} | 672bc733df60a24e4ff094de
+11.11.2024, 21:00:55 - ERROR - cannot remove stay s106_new | BSONError: hex string must be 24 characters | 672bc733df60a24e4ff094de
+11.11.2024, 21:00:55 - ERROR - Failed to remove stay | BSONError: hex string must be 24 characters | 672bc733df60a24e4ff094de
+11.11.2024, 21:01:52 - INFO - Server is running on port: 3031
+11.11.2024, 21:02:21 - INFO - /api/stay | GET | {} | {"id":"s106_new"} | 672bc733df60a24e4ff094de
+11.11.2024, 21:02:34 - INFO - /api/stay | POST | {"_id":"s106_new","name":"Ribeira Charming Duplex_new","type":"House_new","imgUrls":["https://plus.unsplash.com/premium_photo-1661963861529-02951a02a25f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fHJpdmllcmF8ZW58MHx8MHx8fDA%3D","otherImg.jpg"],"price":80,"summary":"Fantastic duplex apartment..._new","capacity":8,"amenities":["TV","Wifi","Kitchen","Smoking allowed","Pets allowed","Cooking basics"],"labels":["Top of the world","Trending","Play","Tropical"],"host":{"_id":"u101_new","fullname":"Davit Pok_new","imgUrl":"https://a0.muscache.com/im/pictures/fab79f25-2e10-4f0f-9711-663cb69dc7d8.jpg?aki_policy=profile_small"},"loc":{"country":"Portugal","countryCode":"PT","city":"Lisbon","address":"17 Kombo st","lat":-8.61308,"lng":41.1413},"reviews":[{"id":"madeId_new","txt":"Very helpful hosts. Cooked traditional..._new","rate":4,"by":{"_id":"u102_new","fullname":"user2_new","imgUrl":"/img/img2.jpg"}}],"likedByUsers":["mini-user_new"]} | {} | 672bc733df60a24e4ff094de
+11.11.2024, 21:09:26 - INFO - Server is running on port: 3031
+11.11.2024, 21:09:31 - INFO - /api/stay | GET | {} | {} | 672bc733df60a24e4ff094de
+11.11.2024, 21:11:01 - INFO - Server is running on port: 3031
+11.11.2024, 21:11:04 - INFO - Server is running on port: 3031
+11.11.2024, 21:11:07 - INFO - Server is running on port: 3031
+11.11.2024, 21:11:30 - INFO - Server is running on port: 3031
+11.11.2024, 21:20:20 - INFO - Server is running on port: 3031
+11.11.2024, 21:20:29 - INFO - Server is running on port: 3031
+11.11.2024, 21:21:28 - INFO - Server is running on port: 3031
+11.11.2024, 21:23:00 - INFO - Server is running on port: 3031
+11.11.2024, 21:24:00 - INFO - Server is running on port: 3031
+11.11.2024, 21:25:04 - INFO - /api/stay | GET | {"label":"OMG"} | {} | 672bc733df60a24e4ff094de
+11.11.2024, 21:25:06 - ERROR - Failed to get stays | MongoServerError: $in needs an array | 672bc733df60a24e4ff094de
+11.11.2024, 21:25:56 - INFO - Server is running on port: 3031
+11.11.2024, 21:26:23 - INFO - Server is running on port: 3031
+11.11.2024, 21:26:36 - INFO - Server is running on port: 3031
+11.11.2024, 21:26:42 - INFO - /api/stay | GET | {"label":"OMG"} | {} | 672bc733df60a24e4ff094de
+11.11.2024, 21:26:44 - ERROR - Failed to get stays | MongoServerError: $in needs an array | 672bc733df60a24e4ff094de
+11.11.2024, 21:26:52 - INFO - Server is running on port: 3031
+11.11.2024, 21:26:55 - INFO - /api/stay | GET | {"label":"OMG"} | {} | 672bc733df60a24e4ff094de
+11.11.2024, 21:26:56 - ERROR - Failed to get stays | MongoServerError: $in needs an array | 672bc733df60a24e4ff094de
+11.11.2024, 21:27:58 - INFO - Server is running on port: 3031
+11.11.2024, 21:28:01 - INFO - /api/stay | GET | {"label":"OMG"} | {} | 672bc733df60a24e4ff094de
+11.11.2024, 21:28:02 - ERROR - Failed to get stays | MongoServerError: $in needs an array | 672bc733df60a24e4ff094de
+11.11.2024, 21:31:16 - INFO - /api/stay | GET | {} | {"id":"label"} | 672bc733df60a24e4ff094de
+11.11.2024, 21:32:23 - INFO - /api/stay | GET | {} | {} | 672bc733df60a24e4ff094de
+11.11.2024, 21:32:23 - ERROR - Failed to get stays | MongoServerError: $in needs an array | 672bc733df60a24e4ff094de
+11.11.2024, 21:33:34 - INFO - /api/stay | GET | {} | {} | 672bc733df60a24e4ff094de
+11.11.2024, 21:33:34 - ERROR - Failed to get stays | MongoServerError: $in needs an array | 672bc733df60a24e4ff094de
+11.11.2024, 21:34:09 - INFO - Server is running on port: 3031
+11.11.2024, 21:34:12 - INFO - /api/stay | GET | {} | {} | 672bc733df60a24e4ff094de
+11.11.2024, 21:37:37 - INFO - Server is running on port: 3031
+11.11.2024, 21:37:57 - INFO - /api/stay | GET | {} | {} | 672bc733df60a24e4ff094de
+11.11.2024, 21:38:13 - INFO - /api/stay | GET | {} | {} | 672bc733df60a24e4ff094de
+11.11.2024, 21:39:56 - INFO - /api/stay | GET | {} | {"id":"s101"} | 672bc733df60a24e4ff094de
+11.11.2024, 21:40:24 - INFO - /api/stay | GET | {} | {} | 672bc733df60a24e4ff094de
+11.11.2024, 21:41:28 - INFO - Server is running on port: 3031

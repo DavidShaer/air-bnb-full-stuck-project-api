@@ -2,14 +2,19 @@ import { logger } from '../../services/logger.service.js'
 import { stayService } from './stay.service.js'
 
 export async function getStays(req, res) {
+	console.log('req: ', req);
+	
 	try {
 		const filterBy = {
-			txt: req.query.txt || '',
-			minSpeed: +req.query.minSpeed || 0,
-            sortField: req.query.sortField || '',
-            sortDir: req.query.sortDir || 1,
+			// txt: req.query.txt || '',
+			// minSpeed: +req.query.minSpeed || 0,
+            // sortField: req.query.sortField || '',
+            // sortDir: req.query.sortDir || 1,
+			label: req.query.label,
 			pageIdx: req.query.pageIdx,
 		}
+		console.log('filterBy: ', filterBy);
+		
 		const stays = await stayService.query(filterBy)
 		res.json(stays)
 	} catch (err) {
@@ -34,6 +39,19 @@ export async function addStay(req, res) {
 
 	try {
 		stay.owner = loggedinUser
+		const addedStay = await stayService.add(stay)
+		res.json(addedStay)
+	} catch (err) {
+		logger.error('Failed to add stay', err)
+		res.status(400).send({ err: 'Failed to add stay' })
+	}
+}
+
+export async function addStays(req, res) {
+	const { loggedinUser, body: stays } = req
+
+	try {
+		// stay.owner = loggedinUser
 		const addedStay = await stayService.add(stay)
 		res.json(addedStay)
 	} catch (err) {
