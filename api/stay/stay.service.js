@@ -17,17 +17,14 @@ export const stayService = {
 	removeStayMsg,
 }
 
-// async function query(filterBy = { txt: '' }) {
 async function query(filterBy) {
 	try {
         const criteria = _buildCriteria(filterBy)
         const sort = _buildSort(filterBy)
 
 		const collection = await dbService.getCollection('stay')
-		// console.log('collection: ', collection);
 		
 		console.log('criteria: ', criteria);
-		// console.log('sort: ', sort);
 		var stayCursor = await collection.find(criteria, { sort })
 
 		if (filterBy.pageIdx !== undefined) {
@@ -44,14 +41,12 @@ async function query(filterBy) {
 
 async function getById(stayId) {
 	try {
-        // const criteria = { _id: ObjectId.createFromHexString(stayId) }
         const criteria = { _id: stayId }
 
 		const collection = await dbService.getCollection('stay')
 		const stay = await collection.findOne(criteria)
         console.log('stay: ', stay);
 		
-		// stay.createdAt = stay._id.getTimestamp()
 		return stay
 	} catch (err) {
 		logger.error(`while finding stay ${stayId}`, err)
@@ -65,7 +60,6 @@ async function remove(stayId) {
 
 	try {
         const criteria = { 
-            // _id: ObjectId.createFromHexString(stayId), 
             _id: stayId, 
         }
         if(!isAdmin) criteria['owner._id'] = ownerId
@@ -93,22 +87,7 @@ async function add(stay) {
 	}
 }
 
-// async function initDatabase(stay) {
-// 	try {
-// 		const collection = await dbService.getCollection('stay')
-// 		await collection.insertOne(stay)
-
-// 		return stay
-// 	} catch (err) {
-// 		logger.error('cannot insert stay', err)
-// 		throw err
-// 	}
-// }
-
-
-
 async function update(stay) {
-    // const stayToSave = { vendor: stay.vendor, speed: stay.speed }
 	const stayToSave = {
 		// _id: stay._id,
 		name: stay.name,
@@ -127,11 +106,7 @@ async function update(stay) {
 		// likedByUsers: stay.likedByUsers
 	};
 	
-	// console.log('stay: ', stay);
-    // const stayToSave = { vendor: stay.vendor, speed: stay.speed }
-
     try {
-        // const criteria = { _id: ObjectId.createFromHexString(stay._id) }
         const criteria = { _id: stay._id }
 
 		const collection = await dbService.getCollection('stay')
@@ -174,16 +149,9 @@ async function removeStayMsg(stayId, msgId) {
 }
 
 function _buildCriteria(filterBy) {
-    // const criteria = {
-    //     vendor: { $regex: filterBy.txt, $options: 'i' },
-    //     speed: { $gte: filterBy.minSpeed },
-    // }
-	// console.log('filterBy; ', filterBy);
-	
 	const criteria = {
 		labels: {$in: [new RegExp(filterBy.icon, 'i')]}
 	}
-	// const criteria = {}
     return criteria
 }
 

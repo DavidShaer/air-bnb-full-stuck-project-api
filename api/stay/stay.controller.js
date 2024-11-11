@@ -7,7 +7,6 @@ export async function getStays(req, res) {
 	try {
 		const filterBy = {
 			// txt: req.query.txt || '',
-			// minSpeed: +req.query.minSpeed || 0,
             // sortField: req.query.sortField || '',
             // sortDir: req.query.sortDir || 1,
 			icon: req.query.icon,
