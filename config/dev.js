@@ -1,4 +1,4 @@
 export default {
-  dbURL: 'mongodb://127.0.0.1:27017',
-  dbName : 'tester_db'
+  dbURL: 'mongodb+srv://davidshaer89:D6319220@davidcluster0.d7y4w.mongodb.net/',
+  dbName : 'air-bnb-project-database'
 }
