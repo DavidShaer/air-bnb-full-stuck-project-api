@@ -148,12 +148,41 @@ async function removeStayMsg(stayId, msgId) {
 	}
 }
 
-function _buildCriteria(filterBy) {
-	const criteria = {
-		labels: {$in: [new RegExp(filterBy.icon, 'i')]}
-	}
-    return criteria
+// function _buildCriteria(filterBy = {}) {
+
+	
+// 	const icon = filterBy.icon;
+// 	console.log('icon: ', icon);
+// 	if (icon){
+// 		console.log('filterBy.icon: ', filterBy.icon);
+// 		const criteria = {
+// 			labels: {$in: [new RegExp(icon, 'i')]}
+// 		}
+// 	}
+// 	else {
+// 		const criteria = {}
+// 	}
+
+//     return criteria
+// }
+
+function _buildCriteria(filterBy = {}) {
+    const icon = filterBy.icon || ''; // Default to empty string if undefined
+    console.log('icon: ', icon);
+
+    let criteria = {}; // Define criteria at the top
+
+    if (icon) {
+        console.log('filterBy.icon: ', filterBy.icon);
+        criteria = {
+            labels: { $in: [new RegExp(icon, 'i')] } // Case-insensitive regex
+        };
+    }
+
+    return criteria;
 }
+
+
 
 function _buildSort(filterBy) {
     if(!filterBy.sortField) return {}

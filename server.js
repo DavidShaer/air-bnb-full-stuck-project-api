@@ -49,9 +49,9 @@ setupSocketAPI(server)
 // it will still serve the index.html file
 // and allow vue/react-router to take it from there
 
-app.get('/**', (req, res) => {
-    res.sendFile(path.resolve('public/index.html'))
-})
+// app.get('/**', (req, res) => {
+//     res.sendFile(path.resolve('public/index.html'))
+// })
 
 import { logger } from './services/logger.service.js'
 const port = process.env.PORT || 3031 // orig = 3030
@@ -69,8 +69,5 @@ server.listen(port, () => {
 
 
 //TODO: david
-// 1. replace routes
-// 2. change api's to stay (instead stay), implement the crudl, modify the var names, check which keys stays should send, 
-// in filter think which keys are important (for example - vendor in stay )
-// 3. connect it to mongoDB (use Atlas direcly - no need the local one)
-// try to make it work until next Tuesday (integrate query atlist with the frontend)
+// 1. check async asyncLocalStorage - als.service
+// 2. dont return nothing from the server once logout

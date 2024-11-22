@@ -12,6 +12,17 @@ export async function getUser(req, res) {
     }
 }
 
+export async function getLogdinUser()
+{
+    try {
+        const logdinUser = await userService.
+        res.send(logdinUser)
+    } catch (err) {
+        logger.error('Failed to get logdIn user', err)
+        res.status(400).send({ err: 'Failed to get logdIn user' })
+    }
+}
+
 export async function getUsers(req, res) {
     try {
         const filterBy = {

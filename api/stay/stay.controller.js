@@ -35,6 +35,8 @@ export async function getStayById(req, res) {
 
 export async function addStay(req, res) {
 	const { loggedinUser, body: stay } = req
+	console.log('req: ', req)
+
 
 	try {
 		stay.owner = loggedinUser
