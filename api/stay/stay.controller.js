@@ -2,7 +2,7 @@ import { logger } from '../../services/logger.service.js'
 import { stayService } from './stay.service.js'
 
 export async function getStays(req, res) {
-	console.log('req: ', req);
+	console.log('req: ', req.query);
 	
 	try {
 		const filterBy = {
@@ -11,6 +11,7 @@ export async function getStays(req, res) {
             // sortDir: req.query.sortDir || 1,
 			icon: req.query.icon,
 			pageIdx: req.query.pageIdx,
+			where: req.query.where
 		}
 		console.log('filterBy: ', filterBy);
 		

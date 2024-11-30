@@ -169,6 +169,9 @@ async function removeStayMsg(stayId, msgId) {
 function _buildCriteria(filterBy = {}) {
     const icon = filterBy.icon || ''; // Default to empty string if undefined
     console.log('icon: ', icon);
+	const where = filterBy.where || ''; // Default to empty string if undefined
+    console.log('where: ', where);
+
 
     let criteria = {}; // Define criteria at the top
 
@@ -178,6 +181,22 @@ function _buildCriteria(filterBy = {}) {
             labels: { $in: [new RegExp(icon, 'i')] } // Case-insensitive regex
         };
     }
+	// if (where){
+	// 	async function getCountryRegionByName(countryName) {
+	// 		const response = await fetch(`https://restcountries.com/v3.1/name/${encodeURIComponent(countryName)}`);
+	// 		const countries = await response.json();
+			
+	// 		if (response.ok && countries.length > 0) {
+	// 		  return countries[0].region; // Return the region of the first match
+	// 		} else {
+	// 		  return 'Region not found'; // Handle cases where no match is found
+	// 		}
+	// 	  }
+		  
+	// 	  // Example usage:
+	// 	  getCountryRegionByName('Portugal').then(region => console.log(region)); // Output: "Europe"
+		  
+	// }
 
     return criteria;
 }
