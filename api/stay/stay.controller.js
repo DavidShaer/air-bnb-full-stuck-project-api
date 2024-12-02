@@ -6,12 +6,14 @@ export async function getStays(req, res) {
 	
 	try {
 		const filterBy = {
-			// txt: req.query.txt || '',
-            // sortField: req.query.sortField || '',
-            // sortDir: req.query.sortDir || 1,
 			icon: req.query.icon,
-			pageIdx: req.query.pageIdx,
-			where: req.query.where
+			where: req.query.where,
+			checkIn: req.query.checkIn,
+			checkOut: req.query.checkOut,
+			adults: req.query.adults,
+			childrens: req.query.childrens,
+			infants: req.query.infants,
+			pets: req.query.pets,
 		}
 		console.log('filterBy: ', filterBy);
 		

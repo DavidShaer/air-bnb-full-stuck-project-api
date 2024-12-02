@@ -148,55 +148,52 @@ async function removeStayMsg(stayId, msgId) {
 	}
 }
 
-// function _buildCriteria(filterBy = {}) {
-
-	
-// 	const icon = filterBy.icon;
-// 	console.log('icon: ', icon);
-// 	if (icon){
-// 		console.log('filterBy.icon: ', filterBy.icon);
-// 		const criteria = {
-// 			labels: {$in: [new RegExp(icon, 'i')]}
-// 		}
-// 	}
-// 	else {
-// 		const criteria = {}
-// 	}
-
-//     return criteria
-// }
-
 function _buildCriteria(filterBy = {}) {
     const icon = filterBy.icon || ''; // Default to empty string if undefined
-    console.log('icon: ', icon);
-	const where = filterBy.where || ''; // Default to empty string if undefined
-    console.log('where: ', where);
+	const where = filterBy.where || '';
+	const checkIn = filterBy.checkIn || '';
+	const checkOut = filterBy.checkOut || '';
+	const adults = filterBy.adults || '';
+	const childrens = filterBy.childrens || '';
+	const infants = filterBy.infants || '';
+	const pets = filterBy.pets || '';
 
 
     let criteria = {}; // Define criteria at the top
-
     if (icon) {
-        console.log('filterBy.icon: ', filterBy.icon);
         criteria = {
             labels: { $in: [new RegExp(icon, 'i')] } // Case-insensitive regex
         };
     }
-	// if (where){
-	// 	async function getCountryRegionByName(countryName) {
-	// 		const response = await fetch(`https://restcountries.com/v3.1/name/${encodeURIComponent(countryName)}`);
-	// 		const countries = await response.json();
-			
-	// 		if (response.ok && countries.length > 0) {
-	// 		  return countries[0].region; // Return the region of the first match
-	// 		} else {
-	// 		  return 'Region not found'; // Handle cases where no match is found
-	// 		}
-	// 	  }
-		  
-	// 	  // Example usage:
-	// 	  getCountryRegionByName('Portugal').then(region => console.log(region)); // Output: "Europe"
-		  
-	// }
+    // Add where criteria
+    if (where) {
+        criteria['loc.region'] = { $regex: new RegExp(where, 'i') }; // Case-insensitive regex for region
+    }
+	// Add checkIn criteria
+    if (checkIn){
+	}
+	// Add checkOut criteria
+    if (checkOut){
+	}
+	// Add adults criteria
+    if (adults != 0){
+    	criteria['capacity'] = { $eq: Number(adults) }; 
+	}
+	// Add childrens criteria
+    if (childrens != 0){
+    	criteria['capacity'] = { $eq: Number(childrens) + Number(adults) }; 
+
+	}
+	// Add infants criteria
+    if (infants != 0){
+    	criteria['capacity'] = { $eq: Number(infants) + Number(adults) }; 
+	}
+	// Add pets criteria
+    if (pets != 0){
+		criteria['amenities'] = { $elemMatch: { $regex: /pet/i } };
+	}
+
+
 
     return criteria;
 }
