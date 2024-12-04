@@ -319,3 +319,61 @@
 11.11.2024, 22:41:24 - INFO - Server is running on port: 3031
 11.11.2024, 22:41:36 - INFO - Server is running on port: 3031
 11.11.2024, 22:41:51 - INFO - Server is running on port: 3031
+4.12.2024, 18:40:39 - INFO - Server is running on port: 3031
+4.12.2024, 18:41:50 - INFO - Server is running on port: 3031
+4.12.2024, 18:42:20 - INFO - Server is running on port: 3031
+4.12.2024, 18:42:21 - INFO - Server is running on port: 3031
+4.12.2024, 18:42:34 - INFO - Server is running on port: 3031
+4.12.2024, 18:42:35 - INFO - Server is running on port: 3031
+4.12.2024, 18:42:46 - INFO - Server is running on port: 3031
+4.12.2024, 18:42:46 - INFO - Server is running on port: 3031
+4.12.2024, 18:44:32 - INFO - Server is running on port: 3031
+4.12.2024, 18:44:33 - INFO - Server is running on port: 3031
+4.12.2024, 18:45:27 - INFO - Server is running on port: 3031
+4.12.2024, 18:45:37 - INFO - Server is running on port: 3031
+4.12.2024, 18:46:17 - INFO - Server is running on port: 3031
+4.12.2024, 18:46:47 - INFO - Server is running on port: 3031
+4.12.2024, 18:53:53 - INFO - Server is running on port: 3031
+4.12.2024, 18:53:54 - INFO - Server is running on port: 3031
+4.12.2024, 18:53:57 - INFO - Server is running on port: 3031
+4.12.2024, 18:53:58 - INFO - Server is running on port: 3031
+4.12.2024, 18:54:59 - INFO - Server is running on port: 3031
+4.12.2024, 18:55:00 - INFO - Server is running on port: 3031
+4.12.2024, 18:57:03 - INFO - Server is running on port: 3031
+4.12.2024, 18:57:05 - INFO - Server is running on port: 3031
+4.12.2024, 18:57:14 - INFO - Server is running on port: 3031
+4.12.2024, 18:57:45 - INFO - Server is running on port: 3031
+4.12.2024, 18:57:54 - INFO - Server is running on port: 3031
+4.12.2024, 19:02:35 - DEBUG - auth.service - signup with username: undefined, fullname: undefined
+4.12.2024, 19:02:35 - ERROR - Failed to signup Missing required signup information
+4.12.2024, 19:04:41 - DEBUG - auth.service - signup with username: omer, fullname: undefined
+4.12.2024, 19:04:41 - ERROR - Failed to signup Missing required signup information
+4.12.2024, 19:05:45 - DEBUG - auth.service - signup with username: omer, fullname: omer facileru
+4.12.2024, 19:05:47 - DEBUG - auth.route - new account created: {"username":"omer","password":"$2b$10$Bj2P/q6HC9quhyve.lknbeCIwPPuwmaBKvn20UJe9RVckVO6a0pw2","fullname":"omer facileru","score":100,"_id":"67508beb9a31a65b91d37d72"}
+4.12.2024, 19:05:47 - DEBUG - auth.service - login with username: omer
+4.12.2024, 19:05:47 - INFO - User signup: | {"_id":"67508beb9a31a65b91d37d72","username":"omer","fullname":"omer facileru","imgUrl":null,"isAdmin":null,"score":100}
+4.12.2024, 19:07:19 - DEBUG - auth.service - signup with username: omer, fullname: omer facileru | 67508beb9a31a65b91d37d72
+4.12.2024, 19:07:19 - ERROR - Failed to signup Username already taken | 67508beb9a31a65b91d37d72
+4.12.2024, 19:08:54 - DEBUG - auth.service - login with username: omer | 67508beb9a31a65b91d37d72
+4.12.2024, 19:08:55 - INFO - User login:  | {"_id":"67508beb9a31a65b91d37d72","username":"omer","fullname":"omer facileru","imgUrl":null,"isAdmin":null,"score":100} | 67508beb9a31a65b91d37d72
+4.12.2024, 19:14:59 - INFO - Server is running on port: 3031
+4.12.2024, 19:15:05 - INFO - Server is running on port: 3031
+4.12.2024, 19:15:17 - DEBUG - auth.service - login with username: omer | 67508beb9a31a65b91d37d72
+4.12.2024, 19:15:19 - INFO - User login:  | {"_id":"67508beb9a31a65b91d37d72","username":"omer","fullname":"omer facileru","imgUrl":null,"isAdmin":null,"score":100} | 67508beb9a31a65b91d37d72
+4.12.2024, 19:15:19 - INFO - login token:  | 996923624a4bd5aeb836d9673f5843f6bfcca5c5b79a0298c5571b8650c047d6b0cd8424b0fc94bb363a18e3235cea0143483c4190c7c1a121260fc7b71487323f2bb6db82ebe143934b1afb0a823bec8b0dabbc138ac58f374d8895fd6c0a9c78238eb74561c41392af661b13d96320737b0bd56bc2aa76e2b33a21da9659bc28e202f7c2468e50b048ce2f32050c14dfc047f6f945d5a668442e5b5981dbe30c362f030b28754746e1f58e78f18bb5ec9c1f6ccb173563 | 67508beb9a31a65b91d37d72
+4.12.2024, 19:16:00 - INFO - Server is running on port: 3031
+4.12.2024, 19:16:30 - DEBUG - auth.service - login with username: omer | 67508beb9a31a65b91d37d72
+4.12.2024, 19:16:32 - INFO - User login:  | {"_id":"67508beb9a31a65b91d37d72","username":"omer","fullname":"omer facileru","imgUrl":null,"isAdmin":null,"score":100} | 67508beb9a31a65b91d37d72
+4.12.2024, 19:17:33 - INFO - login token:  | ee69b4f2f3a98631ce29c2fa0192b4afd2f353d112da8533ddcfa6bb29c330737475a22a834efd18639c31fb6e0fc6980869311bbb4b41fc2e4b771bf46d06f5e2bed754756494f5408d76cc6af8aa781699ff7e32c30851796580cc59c1c61a5ffb1d6ad6951cc28002551c8f66eabfee40b570b1df68916029992965528f9d4fe3b69b47e6cd029669f7bdb6ef59bd56bcde97ad77493f6048cb9a127f3d7c65620954fef07beaf0d886752fc8f04f3ca375b16c38a151 | 67508beb9a31a65b91d37d72
+4.12.2024, 19:25:35 - INFO - Server is running on port: 3031
+4.12.2024, 19:26:01 - DEBUG - auth.service - login with username: omer
+4.12.2024, 19:26:03 - ERROR - Failed to Login Error: secretOrPrivateKey is not valid key material
+4.12.2024, 19:26:40 - INFO - Server is running on port: 3031
+4.12.2024, 19:26:51 - DEBUG - auth.service - login with username: omer
+4.12.2024, 19:26:53 - ERROR - Failed to Login Error: secretOrPrivateKey is not valid key material
+4.12.2024, 19:27:27 - INFO - Server is running on port: 3031
+4.12.2024, 19:27:58 - DEBUG - auth.service - login with username: omer
+4.12.2024, 19:29:08 - INFO - Server is running on port: 3031
+4.12.2024, 19:29:26 - DEBUG - auth.service - login with username: omer
+4.12.2024, 19:29:28 - INFO - User login:  | {"_id":"67508beb9a31a65b91d37d72","username":"omer","fullname":"omer facileru","imgUrl":null,"isAdmin":null,"score":100}
+4.12.2024, 19:29:57 - INFO - login token:  | eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NzUwOGJlYjlhMzFhNjViOTFkMzdkNzIiLCJmdWxsbmFtZSI6Im9tZXIgZmFjaWxlcnUiLCJzY29yZSI6MTAwLCJpc0FkbWluIjpudWxsLCJ1c2VybmFtZSI6Im9tZXIiLCJpYXQiOjE3MzMzMzMzNjgsImV4cCI6MTczMzQxOTc2OH0.6xZHjw_htWj91MnN6nWvkxJDZe3F311sWqTQ26mKBKE

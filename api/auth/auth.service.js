@@ -1,5 +1,6 @@
 import Cryptr from 'cryptr'
 import bcrypt from 'bcrypt'
+import jwt from "jsonwebtoken"
 
 import { userService } from '../user/user.service.js'
 import { logger } from '../../services/logger.service.js'
@@ -47,8 +48,10 @@ function getLoginToken(user) {
         fullname: user.fullname, 
         score: user.score, //TODO: maybe need to
         isAdmin: user.isAdmin,
+				username: user.username,
     }
-	return cryptr.encrypt(JSON.stringify(userInfo))
+	// return cryptr.encrypt(JSON.stringify(userInfo))
+	return jwt.sign(userInfo,"djifdis98t43i3gf9j34gji43ifijr", {expiresIn: "24h"})
 }
 
 function validateToken(loginToken) {
