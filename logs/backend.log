@@ -377,3 +377,33 @@
 4.12.2024, 19:29:26 - DEBUG - auth.service - login with username: omer
 4.12.2024, 19:29:28 - INFO - User login:  | {"_id":"67508beb9a31a65b91d37d72","username":"omer","fullname":"omer facileru","imgUrl":null,"isAdmin":null,"score":100}
 4.12.2024, 19:29:57 - INFO - login token:  | eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NzUwOGJlYjlhMzFhNjViOTFkMzdkNzIiLCJmdWxsbmFtZSI6Im9tZXIgZmFjaWxlcnUiLCJzY29yZSI6MTAwLCJpc0FkbWluIjpudWxsLCJ1c2VybmFtZSI6Im9tZXIiLCJpYXQiOjE3MzMzMzMzNjgsImV4cCI6MTczMzQxOTc2OH0.6xZHjw_htWj91MnN6nWvkxJDZe3F311sWqTQ26mKBKE
+4.12.2024, 19:38:17 - INFO - Server is running on port: 3031
+4.12.2024, 19:46:24 - INFO - Server is running on port: 3031
+4.12.2024, 19:54:46 - INFO - Server is running on port: 3031
+4.12.2024, 19:54:55 - INFO - Server is running on port: 3031
+4.12.2024, 19:55:13 - INFO - Server is running on port: 21211
+4.12.2024, 19:57:13 - INFO - Server is running on port: 3031
+4.12.2024, 19:57:35 - INFO - Server is running on port: 3031
+4.12.2024, 19:58:24 - INFO - Server is running on port: 3031
+4.12.2024, 19:58:43 - DEBUG - auth.service - login with username: omer
+4.12.2024, 19:58:45 - INFO - User login:  | {"_id":"67508beb9a31a65b91d37d72","username":"omer","fullname":"omer facileru","imgUrl":null,"isAdmin":null,"score":100}
+4.12.2024, 20:00:10 - INFO - /api/stay | POST | {} | {}
+4.12.2024, 20:01:57 - INFO - Server is running on port: 3031
+4.12.2024, 20:02:17 - INFO - /api/order | POST | {} | {}
+4.12.2024, 20:04:46 - INFO - Server is running on port: 3031
+4.12.2024, 20:05:07 - INFO - /api/order | POST | {} | {}
+4.12.2024, 20:05:38 - INFO - Server is running on port: 3031
+4.12.2024, 20:06:32 - INFO - /api/order | POST | {} | {}
+4.12.2024, 20:06:53 - DEBUG - auth.service - login with username: omer
+4.12.2024, 20:06:54 - INFO - User login:  | {"_id":"67508beb9a31a65b91d37d72","username":"omer","fullname":"omer facileru","imgUrl":null,"isAdmin":null,"score":100}
+4.12.2024, 20:07:28 - INFO - Server is running on port: 3031
+4.12.2024, 20:07:36 - INFO - /api/order | POST | {} | {}
+4.12.2024, 20:09:03 - INFO - Server is running on port: 3031
+4.12.2024, 20:09:10 - INFO - /api/order | POST | {} | {}
+4.12.2024, 20:09:24 - INFO - Server is running on port: 3031
+4.12.2024, 20:09:30 - INFO - /api/order | POST | {} | {}
+4.12.2024, 20:10:08 - INFO - Server is running on port: 3031
+4.12.2024, 20:10:16 - INFO - /api/order | POST | {} | {}
+4.12.2024, 20:10:35 - INFO - Server is running on port: 3031
+4.12.2024, 20:11:08 - INFO - Server is running on port: 3031
+4.12.2024, 20:11:15 - INFO - /api/order | POST | {} | {}

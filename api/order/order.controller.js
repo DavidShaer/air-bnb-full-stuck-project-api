@@ -1,30 +1,30 @@
 import { logger } from '../../services/logger.service.js'
 import { orderService } from './order.service.js';
-import { stayService } from './stay.service.js'
+// import { stayService } from './stay.service.js'
 
-export async function getStays(req, res) {
-	console.log('req: ', req.query);
+// export async function getStays(req, res) {
+// 	console.log('req: ', req.query);
 	
-	try {
-		const filterBy = {
-			icon: req.query.icon,
-			where: req.query.where,
-			checkIn: req.query.checkIn,
-			checkOut: req.query.checkOut,
-			adults: req.query.adults,
-			childrens: req.query.childrens,
-			infants: req.query.infants,
-			pets: req.query.pets,
-		}
-		console.log('filterBy: ', filterBy);
+// 	try {
+// 		const filterBy = {
+// 			icon: req.query.icon,
+// 			where: req.query.where,
+// 			checkIn: req.query.checkIn,
+// 			checkOut: req.query.checkOut,
+// 			adults: req.query.adults,
+// 			childrens: req.query.childrens,
+// 			infants: req.query.infants,
+// 			pets: req.query.pets,
+// 		}
+// 		console.log('filterBy: ', filterBy);
 		
-		const stays = await stayService.query(filterBy)
-		res.json(stays)
-	} catch (err) {
-		logger.error('Failed to get stays', err)
-		res.status(400).send({ err: 'Failed to get stays' })
-	}
-}
+// 		const stays = await stayService.query(filterBy)
+// 		res.json(stays)
+// 	} catch (err) {
+// 		logger.error('Failed to get stays', err)
+// 		res.status(400).send({ err: 'Failed to get stays' })
+// 	}
+// }
 
 // export async function getStayById(req, res) {
 // 	try {

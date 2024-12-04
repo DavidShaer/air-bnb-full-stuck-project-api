@@ -1,6 +1,7 @@
 import express from 'express'
 import { requireAuth } from '../../middlewares/requireAuth.middleware.js'
 import { log } from '../../middlewares/logger.middleware.js'
+import { addOrder } from './order.controller.js'
 
 const router = express.Router()
 
@@ -8,7 +9,7 @@ const router = express.Router()
 // router.use(requireAuth)
 
 router.get('/', log, () => {})//get orders
-router.post('/',log,requireAuth, () => {})//post order
+router.post('/',log,requireAuth, addOrder)//post order
 // router.post('/', log, requireAuth, addStay)
 // router.post('/createDatabase', log, requireAuth, addStays)
 // router.put('/:id', requireAuth, updateStay)

@@ -1,9 +1,12 @@
 import Cryptr from 'cryptr'
 import bcrypt from 'bcrypt'
 import jwt from "jsonwebtoken"
+import dotenv from "dotenv"
 
 import { userService } from '../user/user.service.js'
 import { logger } from '../../services/logger.service.js'
+
+dotenv.config();
 
 const cryptr = new Cryptr(process.env.SECRET || 'Secret-Puk-1234')
 
@@ -51,7 +54,7 @@ function getLoginToken(user) {
 				username: user.username,
     }
 	// return cryptr.encrypt(JSON.stringify(userInfo))
-	return jwt.sign(userInfo,"djifdis98t43i3gf9j34gji43ifijr", {expiresIn: "24h"})
+	return jwt.sign(userInfo,process.env.JWT_SECRET, {expiresIn: "24h"})
 }
 
 function validateToken(loginToken) {

@@ -3,6 +3,7 @@ import path from 'path'
 import cors from 'cors'
 import express from 'express'
 import cookieParser from 'cookie-parser'
+import dotenv from "dotenv"
 import { authRoutes } from './api/auth/auth.routes.js'
 import { userRoutes } from './api/user/user.routes.js'
 import { reviewRoutes } from './api/review/review.routes.js'
@@ -13,6 +14,7 @@ import { logger } from './services/logger.service.js'
 import { orderRoutes } from './api/order/order.routes.js'
 
 const app = express()
+dotenv.config();
 const server = http.createServer(app)
 
 // Express App Config
@@ -54,7 +56,7 @@ setupSocketAPI(server)
 //     res.sendFile(path.resolve('public/index.html'))
 // })
 
-const port = process.env.PORT || 3031 // orig = 3030
+const port = process.env.PORT || 3031 //orig = 3030
 
 
 server.listen(port, () => {
