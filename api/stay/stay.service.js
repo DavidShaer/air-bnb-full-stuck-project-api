@@ -171,10 +171,13 @@ function _buildCriteria(filterBy = {}) {
     }
 	// Add checkIn criteria
     if (checkIn){
+        // criteria['date'] = { $gte: new Date(checkIn), $lt: new Date(checkOut) }
+        criteria['date'] = { $gte: checkIn, $lt: checkOut }
 	}
-	// Add checkOut criteria
-    if (checkOut){
-	}
+	// // Add checkOut criteria
+    // if (checkOut){
+    //     criteria['date'] = {  }
+	// }
 	// Add adults criteria
     if (adults != 0){
     	criteria['capacity'] = { $eq: Number(adults) }; 
